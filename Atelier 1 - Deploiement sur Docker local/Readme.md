@@ -37,7 +37,7 @@ L'application de sondage s'appuie sur deux containers : un front et un back. La 
 
 On remarque que trois images ont été téléchargée ou créées 
 
-- Exécuter la commande    "docker -ps" afin d'identifier les containers en cours d'exécution
+- Exécuter la commande    "docker ps" afin d'identifier les containers en cours d'exécution
 
 - Exécuter la commande    "docker inspect azure-vote-front" et rechercher la valeur du "HostPort" dans la section "Network settings". Cela indique le port exposé par l'application
 
@@ -48,6 +48,6 @@ On remarque que trois images ont été téléchargée ou créées
 Vous pouvez réaliser ces opérations maintenant ou lorsque l'application sera déployée  dans le cluster
 Localisez le fichier config_file.cfg
 Modifier les valeurs pour VOTE1VALUE et VOTE2VALUE
-- Exécuter la commande     "docker-compose up -- build -d" 
+- Exécuter la commande     "docker-compose up --build -d" 
 
 Note : les images étant déjà chargées, remarquez la rapidité d'exécution :-)
